@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		524E3F1A29D7709700731888 /* Networking in Frameworks */ = {isa = PBXBuildFile; productRef = 524E3F1929D7709700731888 /* Networking */; };
 		524E3F1F29D77CCD00731888 /* CustomNavigationStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524E3F1E29D77CCD00731888 /* CustomNavigationStack.swift */; };
 		524E3F2129D77D1C00731888 /* ScreenStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524E3F2029D77D1C00731888 /* ScreenStack.swift */; };
 		524E3F2329D77D5B00731888 /* Screen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524E3F2229D77D5B00731888 /* Screen.swift */; };
@@ -16,6 +15,7 @@
 		524E3F2C29D7825D00731888 /* NavigationPushButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524E3F2B29D7825D00731888 /* NavigationPushButton.swift */; };
 		524E3F2E29D782EA00731888 /* NavigationPopButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524E3F2D29D782EA00731888 /* NavigationPopButton.swift */; };
 		524E3F3229D788F500731888 /* NewsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524E3F3129D788F500731888 /* NewsView.swift */; };
+		5252E24C29EDDB740062AB6C /* Networking in Frameworks */ = {isa = PBXBuildFile; productRef = 5252E24B29EDDB740062AB6C /* Networking */; };
 		52AC3FEC29D9D9E7004C9C84 /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52AC3FEB29D9D9E7004C9C84 /* View.swift */; };
 		52AC3FEF29D9DA34004C9C84 /* ProgressViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52AC3FEE29D9DA34004C9C84 /* ProgressViewModifier.swift */; };
 		52AC3FF129D9E00E004C9C84 /* Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52AC3FF029D9E00E004C9C84 /* Array.swift */; };
@@ -30,7 +30,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		524E3F1729D76E0E00731888 /* Networking */ = {isa = PBXFileReference; lastKnownFileType = text; name = Networking; path = Modules/Networking/Networking; sourceTree = SOURCE_ROOT; };
 		524E3F1B29D776A100731888 /* generate.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = generate.sh; sourceTree = SOURCE_ROOT; };
 		524E3F1E29D77CCD00731888 /* CustomNavigationStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavigationStack.swift; sourceTree = "<group>"; };
 		524E3F2029D77D1C00731888 /* ScreenStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenStack.swift; sourceTree = "<group>"; };
@@ -40,6 +39,7 @@
 		524E3F2B29D7825D00731888 /* NavigationPushButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationPushButton.swift; sourceTree = "<group>"; };
 		524E3F2D29D782EA00731888 /* NavigationPopButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationPopButton.swift; sourceTree = "<group>"; };
 		524E3F3129D788F500731888 /* NewsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsView.swift; sourceTree = "<group>"; };
+		5252E24A29EDDAFE0062AB6C /* Networking */ = {isa = PBXFileReference; lastKnownFileType = text; name = Networking; path = Modules/Networking/Networking; sourceTree = SOURCE_ROOT; };
 		52AC3FEB29D9D9E7004C9C84 /* View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
 		52AC3FEE29D9DA34004C9C84 /* ProgressViewModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressViewModifier.swift; sourceTree = "<group>"; };
 		52AC3FF029D9E00E004C9C84 /* Array.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Array.swift; sourceTree = "<group>"; };
@@ -59,7 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				524E3F1A29D7709700731888 /* Networking in Frameworks */,
+				5252E24C29EDDB740062AB6C /* Networking in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -165,12 +165,12 @@
 		52ACABEA29D76B560000FFA5 /* HomeWork02 */ = {
 			isa = PBXGroup;
 			children = (
+				5252E24A29EDDAFE0062AB6C /* Networking */,
 				52AC3FED29D9DA1B004C9C84 /* ViewModifires */,
 				52B1476629D81FFB00E6CE27 /* Extensions */,
 				524E3F2F29D788CB00731888 /* News */,
 				524E3F1D29D77CA300731888 /* CustomNavigationStack */,
 				524E3F1B29D776A100731888 /* generate.sh */,
-				524E3F1729D76E0E00731888 /* Networking */,
 				52ACABEB29D76B560000FFA5 /* HomeWork02App.swift */,
 				52ACABED29D76B560000FFA5 /* ContentView.swift */,
 				52ACABEF29D76B580000FFA5 /* Assets.xcassets */,
@@ -223,7 +223,7 @@
 			);
 			name = HomeWork02;
 			packageProductDependencies = (
-				524E3F1929D7709700731888 /* Networking */,
+				5252E24B29EDDB740062AB6C /* Networking */,
 			);
 			productName = HomeWork02;
 			productReference = 52ACABE829D76B560000FFA5 /* HomeWork02.app */;
@@ -498,7 +498,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		524E3F1929D7709700731888 /* Networking */ = {
+		5252E24B29EDDB740062AB6C /* Networking */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = Networking;
 		};
