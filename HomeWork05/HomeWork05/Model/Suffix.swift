@@ -13,10 +13,6 @@ final class Suffix: Hashable, Identifiable {
     var frequency: Int = 0
     var isSearched: Bool = false
     
-    var frequencyText: String {
-        frequency > 0 ? "\(frequency) раз" : "-" 
-    }
-    
     init(value: String) {
         self.value = value
         self.frequency = 0

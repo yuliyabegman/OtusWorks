@@ -21,6 +21,7 @@ struct SequenceView: View {
                     .font(.headline)
                 
                 TextEditor(text: $sequenceViewModel.text)
+                    .autocorrectionDisabled(true)
                     .frame(maxHeight: 60)
                     .padding()
                     .overlay {
@@ -49,6 +50,7 @@ struct SequenceView: View {
                 Text("Поиск по суффиксам:")
                     .font(.headline)
                 TextField("Введите текст", text: $sequenceViewModel.searchText)
+                    .autocorrectionDisabled(true)
                     .frame(height: 30)
                     .padding()
                     .overlay(
@@ -74,9 +76,7 @@ struct SequenceView: View {
                                     Text(suffix.value)
                                         .foregroundColor(suffix.isSearched ? .mint : .black)
                                     Spacer()
-                                    // TODO - не работает локализация из strigsDict
-                                    // Text("frequencyText \(suffix.frequency)")
-                                    Text(suffix.frequencyText)
+                                    Text("frequencyText \(suffix.frequency)")
                                 }
                                 .padding(.horizontal, 40)
                             }
@@ -100,7 +100,7 @@ struct SequenceView: View {
                                             Text(suffix.value)
                                                 .foregroundColor(suffix.isSearched ? .mint : .black)
                                             Spacer()
-                                            Text(suffix.frequencyText)
+                                            Text("frequencyText \(suffix.frequency)")
                                         }
                                         .padding(.horizontal, 40)
                                     }

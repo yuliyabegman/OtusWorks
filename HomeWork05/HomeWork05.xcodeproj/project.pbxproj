@@ -17,7 +17,7 @@
 		5252E26929EF2A7F0062AB6C /* SuffixSequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5252E26829EF2A7F0062AB6C /* SuffixSequence.swift */; };
 		5252E26B29EF2B390062AB6C /* SuffixIterator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5252E26A29EF2B390062AB6C /* SuffixIterator.swift */; };
 		5252E26E29EF2CFB0062AB6C /* SequenceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5252E26D29EF2CFB0062AB6C /* SequenceView.swift */; };
-		52BC0A0129F1E10B009C270E /* FrequencyDict.stringsdict in Resources */ = {isa = PBXBuildFile; fileRef = 52BC0A0329F1E10B009C270E /* FrequencyDict.stringsdict */; };
+		52BC0A0129F1E10B009C270E /* Localizable.stringsdict in Resources */ = {isa = PBXBuildFile; fileRef = 52BC0A0329F1E10B009C270E /* Localizable.stringsdict */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,8 +32,8 @@
 		5252E26829EF2A7F0062AB6C /* SuffixSequence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuffixSequence.swift; sourceTree = "<group>"; };
 		5252E26A29EF2B390062AB6C /* SuffixIterator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuffixIterator.swift; sourceTree = "<group>"; };
 		5252E26D29EF2CFB0062AB6C /* SequenceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SequenceView.swift; sourceTree = "<group>"; };
-		52BC0A0229F1E10B009C270E /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.stringsdict; name = ru; path = ru.lproj/FrequencyDict.stringsdict; sourceTree = "<group>"; };
-		52BC0A0429F1E112009C270E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.stringsdict; name = en; path = en.lproj/FrequencyDict.stringsdict; sourceTree = "<group>"; };
+		52BC0A0229F1E10B009C270E /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.stringsdict; name = ru; path = ru.lproj/Localizable.stringsdict; sourceTree = "<group>"; };
+		52BC0A0429F1E112009C270E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.stringsdict; name = en; path = en.lproj/Localizable.stringsdict; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,7 +90,7 @@
 				5252E25B29EF2A440062AB6C /* ContentView.swift */,
 				5252E25D29EF2A470062AB6C /* Assets.xcassets */,
 				5252E25F29EF2A470062AB6C /* Preview Content */,
-				52BC0A0329F1E10B009C270E /* FrequencyDict.stringsdict */,
+				52BC0A0329F1E10B009C270E /* Localizable.stringsdict */,
 			);
 			path = HomeWork05;
 			sourceTree = "<group>";
@@ -180,7 +180,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5252E26129EF2A470062AB6C /* Preview Assets.xcassets in Resources */,
-				52BC0A0129F1E10B009C270E /* FrequencyDict.stringsdict in Resources */,
+				52BC0A0129F1E10B009C270E /* Localizable.stringsdict in Resources */,
 				5252E25E29EF2A470062AB6C /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -206,13 +206,13 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		52BC0A0329F1E10B009C270E /* FrequencyDict.stringsdict */ = {
+		52BC0A0329F1E10B009C270E /* Localizable.stringsdict */ = {
 			isa = PBXVariantGroup;
 			children = (
 				52BC0A0229F1E10B009C270E /* ru */,
 				52BC0A0429F1E112009C270E /* en */,
 			);
-			name = FrequencyDict.stringsdict;
+			name = Localizable.stringsdict;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
