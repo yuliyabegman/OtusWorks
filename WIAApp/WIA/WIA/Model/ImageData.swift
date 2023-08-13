@@ -11,10 +11,12 @@ final class ImageData: Identifiable, Hashable {
     
     let id: String = UUID().uuidString
     @Published var image: UIImage
+    @Published var category: Category
     @Published var authors: [Author]
   
-    internal init(image: UIImage, authors: [Author] = []) {
+    internal init(image: UIImage, category: Category = Category(), authors: [Author] = []) {
         self.image = image
+        self.category = category
         self.authors = authors
     }
     

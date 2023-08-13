@@ -17,7 +17,7 @@ final class MainViewModel: ObservableObject {
         artists = parseCSV(fileName: "artists.csv")
     }
  
-    func parseCSV(fileName: String) -> [Artist] {
+    private func parseCSV(fileName: String) -> [Artist] {
         if let filepath = Bundle.main.path(forResource: fileName, ofType: nil) {
             do {
                 let fileContent = try String(contentsOfFile: filepath)

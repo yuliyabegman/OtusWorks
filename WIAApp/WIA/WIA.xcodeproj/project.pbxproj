@@ -20,6 +20,9 @@
 		521969DA2A6DB8DD00B1D7A8 /* SearchScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521969D92A6DB8DD00B1D7A8 /* SearchScreen.swift */; };
 		521969DC2A6DC51A00B1D7A8 /* SPClassifier.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 521969DB2A6DC51A00B1D7A8 /* SPClassifier.mlmodel */; };
 		521969DE2A6DC57100B1D7A8 /* SearchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521969DD2A6DC57100B1D7A8 /* SearchViewModel.swift */; };
+		5253551B2A88E17D0011F8E5 /* SPPreClassifier.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 5253551A2A88E17D0011F8E5 /* SPPreClassifier.mlmodel */; };
+		5253551D2A88E8E20011F8E5 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5253551C2A88E8E20011F8E5 /* Category.swift */; };
+		5253551F2A88E9E30011F8E5 /* ArtCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5253551E2A88E9E30011F8E5 /* ArtCategory.swift */; };
 		52B260AC2A7FBA2A007516A6 /* ImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B260AB2A7FBA2A007516A6 /* ImageView.swift */; };
 		52BE02582A71B3FE00B20FB2 /* Double.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52BE02572A71B3FE00B20FB2 /* Double.swift */; };
 		52BE025A2A71B4B400B20FB2 /* artists.csv in Resources */ = {isa = PBXBuildFile; fileRef = 52BE02592A71B4B400B20FB2 /* artists.csv */; };
@@ -45,6 +48,9 @@
 		521969D92A6DB8DD00B1D7A8 /* SearchScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchScreen.swift; sourceTree = "<group>"; };
 		521969DB2A6DC51A00B1D7A8 /* SPClassifier.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = SPClassifier.mlmodel; sourceTree = "<group>"; };
 		521969DD2A6DC57100B1D7A8 /* SearchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewModel.swift; sourceTree = "<group>"; };
+		5253551A2A88E17D0011F8E5 /* SPPreClassifier.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = SPPreClassifier.mlmodel; sourceTree = "<group>"; };
+		5253551C2A88E8E20011F8E5 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		5253551E2A88E9E30011F8E5 /* ArtCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtCategory.swift; sourceTree = "<group>"; };
 		52B260AB2A7FBA2A007516A6 /* ImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageView.swift; sourceTree = "<group>"; };
 		52BE02572A71B3FE00B20FB2 /* Double.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Double.swift; sourceTree = "<group>"; };
 		52BE02592A71B4B400B20FB2 /* artists.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = artists.csv; sourceTree = "<group>"; };
@@ -85,12 +91,12 @@
 			isa = PBXGroup;
 			children = (
 				521969DB2A6DC51A00B1D7A8 /* SPClassifier.mlmodel */,
+				5253551A2A88E17D0011F8E5 /* SPPreClassifier.mlmodel */,
 				521969CC2A6D990600B1D7A8 /* Info.plist */,
 				521969C52A6D909D00B1D7A8 /* Resources */,
 				521969C42A6D908B00B1D7A8 /* ViewModel */,
 				521969C32A6D907E00B1D7A8 /* View */,
 				521969C22A6D906F00B1D7A8 /* Model */,
-				521969C12A6D906600B1D7A8 /* Charts */,
 				521969C02A6D905C00B1D7A8 /* Extensions */,
 				521969B22A6D88AD00B1D7A8 /* WIAApp.swift */,
 				521969B62A6D88AF00B1D7A8 /* Assets.xcassets */,
@@ -117,20 +123,15 @@
 			path = Extensions;
 			sourceTree = "<group>";
 		};
-		521969C12A6D906600B1D7A8 /* Charts */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Charts;
-			sourceTree = "<group>";
-		};
 		521969C22A6D906F00B1D7A8 /* Model */ = {
 			isa = PBXGroup;
 			children = (
 				521969C62A6D90F900B1D7A8 /* Constants.swift */,
+				5253551E2A88E9E30011F8E5 /* ArtCategory.swift */,
 				521969CF2A6DA46F00B1D7A8 /* Artist.swift */,
 				52BE025D2A74722700B20FB2 /* ImageData.swift */,
 				52BE025F2A7472DE00B20FB2 /* Author.swift */,
+				5253551C2A88E8E20011F8E5 /* Category.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -239,7 +240,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				521969DE2A6DC57100B1D7A8 /* SearchViewModel.swift in Sources */,
+				5253551F2A88E9E30011F8E5 /* ArtCategory.swift in Sources */,
 				521969D42A6DB2A700B1D7A8 /* MainScreen.swift in Sources */,
+				5253551D2A88E8E20011F8E5 /* Category.swift in Sources */,
+				5253551B2A88E17D0011F8E5 /* SPPreClassifier.mlmodel in Sources */,
 				521969B32A6D88AD00B1D7A8 /* WIAApp.swift in Sources */,
 				521969C92A6D92AC00B1D7A8 /* Int32.swift in Sources */,
 				521969C72A6D90F900B1D7A8 /* Constants.swift in Sources */,

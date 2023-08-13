@@ -10,6 +10,6 @@ import Foundation
 struct Constants {
     
     struct Colors {
-        static let main = 0x0ABAB5//74ddd9
+        static let main = 0x0ABAB5
     }
 }
