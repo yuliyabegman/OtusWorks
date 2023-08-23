@@ -24,17 +24,17 @@
 
 Для поиска автора картины нужно нажать кнопку в правом верхнем углу и выбрать из галереи фотографии.
 
-![01](https://github.com/yuliyabegman/OtusWorks/tree/main/WIAApp/images/01.png)
-![02](https://github.com/yuliyabegman/OtusWorks/tree/main/WIAApp/images/02.png)
+![01](https://github.com/yuliyabegman/OtusWorks/blob/main/WIAApp/images/01.png)
+![02](https://github.com/yuliyabegman/OtusWorks/blob/main/WIAApp/images/02.png)
 
 Если получится определить художника картины, то на экране отобразится результат с указанием вероятности совпадения.
 
-![03](https://github.com/yuliyabegman/OtusWorks/tree/main/WIAApp/images/03.png)
-![04](https://github.com/yuliyabegman/OtusWorks/tree/main/WIAApp/images/04.png)
-![05](https://github.com/yuliyabegman/OtusWorks/tree/main/WIAApp/images/05.png)
+![03](https://github.com/yuliyabegman/OtusWorks/blob/main/WIAApp/images/03.png)
+![04](https://github.com/yuliyabegman/OtusWorks/blob/main/WIAApp/images/04.png)
+![05](https://github.com/yuliyabegman/OtusWorks/blob/main/WIAApp/images/05.png)
 
 По нажатию на имя автора откроется экран с информацией о художнике и его контакты для связи.
 
-![06](https://github.com/yuliyabegman/OtusWorks/tree/main/WIAApp/images/06.png)
-![07](https://github.com/yuliyabegman/OtusWorks/tree/main/WIAApp/images/07.png)
-![08](https://github.com/yuliyabegman/OtusWorks/tree/main/WIAApp/images/08.png)
+![06](https://github.com/yuliyabegman/OtusWorks/blob/main/WIAApp/images/06.png)
+![07](https://github.com/yuliyabegman/OtusWorks/blob/main/WIAApp/images/07.png)
+![08](https://github.com/yuliyabegman/OtusWorks/blob/main/WIAApp/images/08.png)
