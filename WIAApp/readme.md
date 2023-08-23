@@ -24,7 +24,7 @@
 
 Для поиска автора картины нужно нажать кнопку в правом верхнем углу и выбрать из галереи фотографии.
 
-<img src="https://github.com/yuliyabegman/OtusWorks/tree/main/WIAApp/images/01.png" alt="01">
+<img src="https://github.com/yuliyabegman/OtusWorks/blob/main/WIAApp/images/01.png" alt="01">
 <img src="https://github.com/yuliyabegman/OtusWorks/tree/main/WIAApp/images/02.png" alt="02">
 
 Если получится определить художника картины, то на экране отобразится результат с указанием вероятности совпадения.
